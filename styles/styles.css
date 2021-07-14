@@ -8,7 +8,6 @@ body{
 }
 .container{
     background-color: rgb(233, 75, 48);
-   
 width: 1350px;
 height: 500px;
 
@@ -46,6 +45,7 @@ border-radius: 5px;}
     padding-left: 200px;
     padding-top: 100px;
 }
+/* ---------player css -------- */
 .best-players{
     background-color:#FFFFFF;
     margin-top: 70px;
@@ -78,7 +78,7 @@ height: 474px;
     margin-left: 30px;
 }
 
-
+/* -------sponsor css--------  */
 .sponsor img{
     display: block;
     margin-left: auto;
@@ -117,6 +117,38 @@ hr{
 #text-center{
     font-size: 12px;
     text-align: center;
-   
-
 }
+/*---------- media quaries-------- */
+/* mobile device */
+@media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+       margin-right: 50%;
+       flex-direction: column;
+        
+
+    }
+    .best-players { 
+        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+    }
+
+    /*------ tablet devices ---- */
+    @media only screen and (min-width: 689px) and (max-width:992px) {
+
+        .container{
+
+            width: 100%;
+            flex-direction: column;}
+
+        .best-players{
+            
+            flex-direction: column;
+            grid-template-columns: repeat(2,1fr);
+            align-items: center;
+        
+
+        }
+        
+    }
