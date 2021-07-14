@@ -6,3 +6,43 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.container{
+    background-color: rgb(233, 75, 48);
+    width:100%;
+    height: 600px; 
+    
+}
+.adjust{display: flex;
+
+}
+.Copa-2021{
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+h1{
+    color: white;
+   font-size: 50px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(cyan, teal);
+    color:white;
+padding:10px;
+border-radius: 5px;}
+
+.link-button:hover{
+    cursor: pointer;
+    transform: scale(0.54);
+    color: black;
+}
+    
+
+
+.live-images{
+    width:500px ;
+    height:400px ;
+    padding-left: 200px;
+    padding-top: 100px;
+}
